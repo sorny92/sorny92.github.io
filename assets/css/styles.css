@@ -290,6 +290,13 @@ p {
     position: relative;
     top: 1px;
   }
+  .download-resume-button {
+    margin: 12px;
+    padding: 10px;
+    color: #545E6C;
+    background-color: #42A8C0;
+    box-shadow: 20px;
+  }
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
