@@ -1,0 +1,39 @@
+# Site settings
+title: "Esteve Soria"
+email: esofabian@gmail.com
+description: "My personal webpage."
+baseurl: ""
+url: "http://carte-noire.jacobtomlinson.co.uk/"
+title_description: "One day I will write something here. :)  Although you can go to my <a href=\"resume.html\">resume</a>."
+title_image: "assets/images/profile.png"
+google_analytics: "UA-102150112-1"
+disqus_account: sorny92
+github_repository: https://github.com/sorny92
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: sorny92
+github_username:  sorny92
+instagram_username: sorny92
+reddit_username: 
+linkedin_link: https://www.linkedin.com/in/estevesoria/
+google_plus_l1ink:
+stackoverflow_link: resume.html
+resume_link:
+xing_link:
+facebook_link:
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
