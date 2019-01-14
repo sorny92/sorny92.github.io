@@ -14,6 +14,7 @@ tags:
  - CNN
 ---
 
+This is some of the stuff I found in internet that can be useful for CNN hardware deployment:  
 [HiKey Kirin 620](https://www.96boards.org/product/hikey/)  
 [Chamaleon96 Cycline V FPGA](https://www.96boards.org/product/chameleon96/)  
 [HiKey 960](https://www.96boards.org/product/hikey960/)  
