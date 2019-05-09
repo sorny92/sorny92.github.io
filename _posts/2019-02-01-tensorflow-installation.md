@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Tensorflow from sources for Android and embedded deployment 
-date:       2019-01-14 18:24:00
+date:       2019-02-01 20:00:00
 summary:    Step-by-step installation of tensorflow for Android and embedded devices deployment
 categories: AI
 thumbnail:  cogs
@@ -29,6 +29,8 @@ Once you have tensorflow running for Python you will be able to train models and
 our goal here is to run models in C++ and Android. For that we have to compile tensorflow as a C++ library so we
 can link against it to run our program.
 
+This command is really useful if you want to know which intrinsics are enabled in your CPU for better performance ([Thanks](https://stackoverflow.com/questions/49094597/illegal-instruction-core-dumped-after-running-import-tensorflow)):
+```grep flags -m1 /proc/cpuinfo | cut -d ":" -f 2 | tr '[:upper:]' '[:lower:]' | { read FLAGS; OPT="-march=native"; for flag in $FLAGS; do case "$flag" in "sse4_1" | "sse4_2" | "ssse3" | "fma" | "cx16" | "popcnt" | "avx" | "avx2") OPT+=" --copt=-m$flag";; esac; done; MODOPT=${OPT//_/\.}; echo "$MODOPT"; }```
 ---
 
 References:
