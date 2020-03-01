@@ -37,3 +37,5 @@ Yo lo preparo en una sartén.
 4. Una vez la sartén está caliente se pone la masa y no se toca
 5. Una vez el pan empieza a tirar un poco de humo por abajo (que está empezando a quemarse alguna pequeña parte)
 se le da la vuelta y lo mismo por el otro lado.
+
+(Referencias)[https://www.marialunarillos.com/blog/2014/07/receta-de-pan-plano-en-sarten.html]
